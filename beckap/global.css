@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1px;
+    padding: 1px;
+   
+ }
+ 
+ 
+ body { 
+    background-color: black;
+    background-image:url(https://img.freepik.com/vetores-gratis/numeros-de-queda-digitais-do-codigo-binario-do-estilo-da-matriz-fundo-azul_1017-37387.jpg?t=st=1732032645~exp=1732036245~hmac=c6570ac399b8976e75547dcab47b413c8a7a8c33b56754324f1b9b2caf1b1143&w=1380) ;
+    justify-content: center;
+    
+ }
+
+header{
+    perspective: none;
+    margin-left: 100;
+
+}
+
+ h1 {
+    color: white;
+     
+ }
+
+
+button{
+    opacity: 100%;
+}
+section{
+    
+    
+}
+.border{
+    background: white 10px;
+
+}

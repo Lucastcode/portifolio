@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+}
+:root {
+   --gradient: linear-gradient(
+      to top,
+      blue,
+      white
+   )
+}
+
+html {
+      background-image: url(https://img.freepik.com/vetores-gratis/numeros-de-queda-digitais-do-codigo-binario-do-estilo-da-matriz-fundo-azul_1017-37387.jpg?t=st=1732032645~exp=1732036245~hmac=c6570ac399b8976e75547dcab47b413c8a7a8c33b56754324f1b9b2caf1b1143&w=1380);
+   background-size: 100%;
+}
+
+body {
+   color: #ffffff;
+}
+
+a {
+   color: #fff;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+main {
+   margin: 1rem;
+   padding: 1rem;
+   border: 1px solid white;
+   border-image: var(--gradient)1;
+   border-radius: 1rem;
+}
+
+main::after {
+   top: auto;
+   left: auto;
+   bottom: 0;
+   right: 0;
+   transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 768px) {
+
+   main {
+      max-width: 1024px;
+      margin: 1rem auto;
+   }
+
+   main::before,
+   main::after {
+      width: 70vw;
+   }
+
+}
