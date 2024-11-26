@@ -25,12 +25,10 @@
 
 .header .photo {
    width: 200px;
-   height: 200px;
+   height: 210px;
    border-radius: 50%;
-   border-top:  solid rgb(0, 30, 255) ;
-   border-bottom: solid rgb(0, 170, 237);
-
-   
+   border-top:  solid rgb(67, 67, 67) ;
+   border-bottom: solid rgb(255, 255, 255);
     
 
 }
